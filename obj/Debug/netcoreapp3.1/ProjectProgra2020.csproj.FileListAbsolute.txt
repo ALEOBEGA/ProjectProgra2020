@@ -92,3 +92,4 @@ C:\Users\aleon\Documents\2020 - II\Programacion Labo\TiendaCalzados\ProjectProgr
 C:\Users\aleon\Documents\2020 - II\Programacion Labo\TiendaCalzados\ProjectProgra2020\obj\Debug\netcoreapp3.1\ProjectProgra2020.dll
 C:\Users\aleon\Documents\2020 - II\Programacion Labo\TiendaCalzados\ProjectProgra2020\obj\Debug\netcoreapp3.1\ProjectProgra2020.pdb
 C:\Users\aleon\Documents\2020 - II\Programacion Labo\TiendaCalzados\ProjectProgra2020\obj\Debug\netcoreapp3.1\ProjectProgra2020.genruntimeconfig.cache
+C:\Users\aleon\Documents\2020 - II\Programacion Labo\TiendaCalzados\ProjectProgra2020\obj\Debug\netcoreapp3.1\Razor\Views\Formulario\Formulario.cshtml.g.cs
