@@ -380,7 +380,5 @@ C:\Users\aleon\Documents\2020 - II\Programacion Labo\Tienda Calzados\ProjectProg
 C:\Users\aleon\Documents\2020 - II\Programacion Labo\Tienda Calzados\ProjectProgra2020-1\obj\Debug\netcoreapp3.1\ProjectProgra2020.pdb
 C:\Users\aleon\Documents\2020 - II\Programacion Labo\Tienda Calzados\ProjectProgra2020-1\obj\Debug\netcoreapp3.1\ProjectProgra2020.genruntimeconfig.cache
 >>>>>>> 3d7b1eae8de4fd3f33fbb0ae292bda3a1d8b2ac8
-<<<<<<< HEAD
 C:\Users\aleon\Documents\2020 - II\Programacion Labo\Tienda Calzados\ProjectProgra2020-1\obj\Debug\netcoreapp3.1\Razor\Views\Inicio\Index.cshtml.g.cs
-=======
 >>>>>>> a7a96b78becc2f0d74720c7caf6f99092614d994
