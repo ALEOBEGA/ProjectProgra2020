@@ -54,7 +54,11 @@
       "code": "Undefined",
       "level": "Warning",
       "warningLevel": 1,
+<<<<<<< HEAD
       "message": "Problema al leer el archivo de caché C:\\Users\\PERSONAL\\Desktop\\progra1-lab\\Final_\\ProjectProgra2020\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+=======
+      "message": "Problema al leer el archivo de caché C:\\Users\\aleon\\Documents\\2020 - II\\Programacion Labo\\Tienda Calzados\\ProjectProgra2020-1\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+>>>>>>> dfb5a50c5fe5c1cdd4168f4e9ce72f6fa2accaa6
     }
   ]
 }
