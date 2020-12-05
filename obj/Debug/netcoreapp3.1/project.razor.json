@@ -14402,11 +14402,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\PERSONAL\\Desktop\\progra1-lab\\Final_\\ProjectProgra2020\\Views\\Formulario\\Formulario.cshtml",
-      "TargetPath": "Views\\Formulario\\Formulario.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\PERSONAL\\Desktop\\progra1-lab\\Final_\\ProjectProgra2020\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
@@ -14414,11 +14409,6 @@
     {
       "FilePath": "c:\\Users\\PERSONAL\\Desktop\\progra1-lab\\Final_\\ProjectProgra2020\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
       "TargetPath": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\PERSONAL\\Desktop\\progra1-lab\\Final_\\ProjectProgra2020\\Views\\Catalogo\\Catalogo.cshtml",
-      "TargetPath": "Views\\Catalogo\\Catalogo.cshtml",
       "FileKind": "mvc"
     },
     {
