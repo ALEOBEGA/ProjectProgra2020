@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PERSONAL\\Desktop\\progra1-lab\\Final_\\ProjectProgra2020\\ProjectProgra2020.csproj": {}
+    "C:\\Users\\PERSONAL\\Desktop\\progra1-lab\\Actualizacion proyecto\\ProjectProgra2020\\ProjectProgra2020.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PERSONAL\\Desktop\\progra1-lab\\Final_\\ProjectProgra2020\\ProjectProgra2020.csproj": {
+    "C:\\Users\\PERSONAL\\Desktop\\progra1-lab\\Actualizacion proyecto\\ProjectProgra2020\\ProjectProgra2020.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PERSONAL\\Desktop\\progra1-lab\\Final_\\ProjectProgra2020\\ProjectProgra2020.csproj",
+        "projectUniqueName": "C:\\Users\\PERSONAL\\Desktop\\progra1-lab\\Actualizacion proyecto\\ProjectProgra2020\\ProjectProgra2020.csproj",
         "projectName": "ProjectProgra2020",
-        "projectPath": "C:\\Users\\PERSONAL\\Desktop\\progra1-lab\\Final_\\ProjectProgra2020\\ProjectProgra2020.csproj",
+        "projectPath": "C:\\Users\\PERSONAL\\Desktop\\progra1-lab\\Actualizacion proyecto\\ProjectProgra2020\\ProjectProgra2020.csproj",
         "packagesPath": "C:\\Users\\PERSONAL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PERSONAL\\Desktop\\progra1-lab\\Final_\\ProjectProgra2020\\obj\\",
+        "outputPath": "C:\\Users\\PERSONAL\\Desktop\\progra1-lab\\Actualizacion proyecto\\ProjectProgra2020\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PERSONAL\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -55,6 +55,10 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[3.1.8, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[3.1.4, )"
             }
           },
           "imports": [

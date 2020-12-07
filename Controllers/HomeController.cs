@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using ProjectProgra2020.Models;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
+using projectProgra2020.Models;
 
 namespace ProjectProgra2020.Controllers
 {
@@ -13,14 +16,19 @@ namespace ProjectProgra2020.Controllers
     {
         private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        private readonly DatabaseContext _context;
+
+        public HomeController(ILogger<HomeController> logger,DatabaseContext context)
         {
             _logger = logger;
+            _context = context;
         }
 
         public IActionResult Index()
         {
-            return View();
+            var listContactos=_context.Registro.ToList();
+
+            return View(listContactos);
         }
 
         public IActionResult Privacy()

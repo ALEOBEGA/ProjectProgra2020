@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@model IEnumerable<projectProgra2020.Models.Registro>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -52,6 +53,31 @@
         </a>
       </div>
 <br><br>
+
+
+
+
+
+
+ @foreach (var item in Model)
+    {
+        <tr>
+            <th scope="row">
+                <a asp-action="Edit" asp-route-id="@item.dni">Edit</a> |
+
+            </th>
+            <td>
+                @Html.DisplayFor(modelItem => item.dni)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.dni)
+            </td>
+        </tr>
+    }
+
+
+
+
 
 
 
