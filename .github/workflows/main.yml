@@ -1,26 +1,26 @@
-name: Deploy heroku
 on:
   push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+    branches:
+      - master
+
+name: Deploy to heroku
+
 env:
   HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
   HEROKU_APP_NAME: ${{ 'app-progra-rg' }}
+
 jobs:
-  build:
-
+  build_webapp:
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@v2
-    - name: Setup .NET Core
-      uses: actions/setup-dotnet@v1
-      with:
-        dotnet-version: 3.1.301
-    - name: Install dependencies
-      run: dotnet restore
-    - name: Build
-      run: dotnet build --configuration Release --no-restore
-    - name: Test
-      run: dotnet test --no-restore --verbosity normal
+
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Docker build
+      run: docker login --username=_ --password=$HEROKU_API_KEY registry.heroku.com
+
+    - name: Publish
+      run: |
+        heroku container:push web -a $HEROKU_APP_NAME
+        heroku container:release web -a $HEROKU_APP_NAME
