@@ -14402,6 +14402,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\PERSONAL\\Desktop\\progra1-lab\\Actualizacion proyecto\\ProjectProgra2020\\Views\\ZapatosH\\indexH.cshtml",
+      "TargetPath": "Views\\ZapatosH\\indexH.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\PERSONAL\\Desktop\\progra1-lab\\Actualizacion proyecto\\ProjectProgra2020\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
@@ -14412,13 +14417,18 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\PERSONAL\\Desktop\\progra1-lab\\Actualizacion proyecto\\ProjectProgra2020\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FilePath": "c:\\Users\\PERSONAL\\Desktop\\progra1-lab\\Actualizacion proyecto\\ProjectProgra2020\\Views\\ZapatosN\\indexN.cshtml",
+      "TargetPath": "Views\\ZapatosN\\indexN.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\PERSONAL\\Desktop\\progra1-lab\\Actualizacion proyecto\\ProjectProgra2020\\Views\\Inicio\\Index.cshtml",
-      "TargetPath": "Views\\Inicio\\Index.cshtml",
+      "FilePath": "c:\\Users\\PERSONAL\\Desktop\\progra1-lab\\Actualizacion proyecto\\ProjectProgra2020\\Views\\ZapatosM\\indexM.cshtml",
+      "TargetPath": "Views\\ZapatosM\\indexM.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\PERSONAL\\Desktop\\progra1-lab\\Actualizacion proyecto\\ProjectProgra2020\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {

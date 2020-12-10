@@ -461,7 +461,6 @@ C:\Users\PERSONAL\Desktop\progra1-lab\Actualizacion proyecto\ProjectProgra2020\o
 C:\Users\PERSONAL\Desktop\progra1-lab\Actualizacion proyecto\ProjectProgra2020\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
 C:\Users\PERSONAL\Desktop\progra1-lab\Actualizacion proyecto\ProjectProgra2020\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\PERSONAL\Desktop\progra1-lab\Actualizacion proyecto\ProjectProgra2020\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
-C:\Users\PERSONAL\Desktop\progra1-lab\Actualizacion proyecto\ProjectProgra2020\obj\Debug\netcoreapp3.1\Razor\Views\Inicio\Index.cshtml.g.cs
 C:\Users\PERSONAL\Desktop\progra1-lab\Actualizacion proyecto\ProjectProgra2020\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\PERSONAL\Desktop\progra1-lab\Actualizacion proyecto\ProjectProgra2020\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\PERSONAL\Desktop\progra1-lab\Actualizacion proyecto\ProjectProgra2020\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
@@ -479,3 +478,6 @@ C:\Users\PERSONAL\Desktop\progra1-lab\Actualizacion proyecto\ProjectProgra2020\o
 C:\Users\PERSONAL\Desktop\progra1-lab\Actualizacion proyecto\ProjectProgra2020\obj\Debug\netcoreapp3.1\ProjectProgra2020.genruntimeconfig.cache
 C:\Users\PERSONAL\Desktop\progra1-lab\Actualizacion proyecto\ProjectProgra2020\bin\Debug\netcoreapp3.1\Npgsql.dll
 C:\Users\PERSONAL\Desktop\progra1-lab\Actualizacion proyecto\ProjectProgra2020\bin\Debug\netcoreapp3.1\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\PERSONAL\Desktop\progra1-lab\Actualizacion proyecto\ProjectProgra2020\obj\Debug\netcoreapp3.1\Razor\Views\ZapatosH\indexH.cshtml.g.cs
+C:\Users\PERSONAL\Desktop\progra1-lab\Actualizacion proyecto\ProjectProgra2020\obj\Debug\netcoreapp3.1\Razor\Views\ZapatosM\indexM.cshtml.g.cs
+C:\Users\PERSONAL\Desktop\progra1-lab\Actualizacion proyecto\ProjectProgra2020\obj\Debug\netcoreapp3.1\Razor\Views\ZapatosN\indexN.cshtml.g.cs
