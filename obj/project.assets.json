@@ -9020,19 +9020,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\PC\\.nuget\\packages\\": {}
+    "C:\\Users\\aleon\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PC\\Desktop\\Programación Lab\\Progra lab\\ProjectProgra2020\\ProjectProgra2020.csproj",
+      "projectUniqueName": "C:\\Users\\aleon\\Documents\\2020 - II\\Programacion Labo\\Proyecto2020\\ProjectProgra2020\\ProjectProgra2020.csproj",
       "projectName": "ProjectProgra2020",
-      "projectPath": "C:\\Users\\PC\\Desktop\\Programación Lab\\Progra lab\\ProjectProgra2020\\ProjectProgra2020.csproj",
-      "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PC\\Desktop\\Programación Lab\\Progra lab\\ProjectProgra2020\\obj\\",
+      "projectPath": "C:\\Users\\aleon\\Documents\\2020 - II\\Programacion Labo\\Proyecto2020\\ProjectProgra2020\\ProjectProgra2020.csproj",
+      "packagesPath": "C:\\Users\\aleon\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\aleon\\Documents\\2020 - II\\Programacion Labo\\Proyecto2020\\ProjectProgra2020\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\aleon\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -9042,6 +9042,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -9053,6 +9054,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
             "target": "Package",
@@ -9097,6 +9099,16 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.10, 3.1.10]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.10, 3.1.10]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -9105,8 +9117,16 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema al leer el archivo de caché C:\\Users\\aleon\\Documents\\2020 - II\\Programacion Labo\\Proyecto2020\\ProjectProgra2020\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
