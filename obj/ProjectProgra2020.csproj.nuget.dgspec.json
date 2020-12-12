@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\PERSONAL\\Desktop\\progra1-lab\\Actualizacion proyecto\\ProjectProgra2020\\ProjectProgra2020.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "C:\\Users\\PERSONAL\\Desktop\\progra1-lab\\Actualizacion proyecto\\ProjectProgra2020\\ProjectProgra2020.csproj",
         "packagesPath": "C:\\Users\\PERSONAL\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\PERSONAL\\Desktop\\progra1-lab\\Actualizacion proyecto\\ProjectProgra2020\\obj\\",
+=======
+    "C:\\Users\\PC\\Desktop\\Programación Lab\\Carrito de compras\\ProjectProgra2020\\ProjectProgra2020.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\PC\\Desktop\\Programación Lab\\Carrito de compras\\ProjectProgra2020\\ProjectProgra2020.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\PC\\Desktop\\Programación Lab\\Carrito de compras\\ProjectProgra2020\\ProjectProgra2020.csproj",
+        "projectName": "ProjectProgra2020",
+        "projectPath": "C:\\Users\\PC\\Desktop\\Programación Lab\\Carrito de compras\\ProjectProgra2020\\ProjectProgra2020.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\Desktop\\Programación Lab\\Carrito de compras\\ProjectProgra2020\\obj\\",
+>>>>>>> 6bd4d9e002692dd03c0f5bdbb6e4088d9b6f6b5d
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PERSONAL\\AppData\\Roaming\\NuGet\\NuGet.Config"

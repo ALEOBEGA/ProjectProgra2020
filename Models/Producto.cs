@@ -1,10 +1,11 @@
 using System;
 using System.ComponentModel.DataAnnotations;
-
-
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace projectProgra2020.Models
 {
+    [Table("t_producto")]
+    
     public class Producto
     {
         [Key]
