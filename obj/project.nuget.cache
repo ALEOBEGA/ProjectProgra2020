@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "edTtfEoPNtpKLM/ynsdP0zvV8lmqRlfYH1hpYUjXY46H60lJRm+LMkZ0u6qsyTvb9ZEniVMOIqgR+oQBHw00aQ==",
+  "dgSpecHash": "7gadacJZgqKbfBTkV6Gyobk1qyrQ72nCnUxgtBTo0aDJmYTf8kPIkM+HgDUrVK0DFG8naOP4ZE3vs+G3+El8MQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\PC\\Desktop\\Programación Lab\\Carrito de compras\\ProjectProgra2020\\ProjectProgra2020.csproj",
   "expectedPackageFiles": [
@@ -177,14 +177,9 @@
     "C:\\Users\\PC\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\PC\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\PC\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema al leer el archivo de caché C:\\Users\\PC\\Desktop\\Programación Lab\\Carrito de compras\\ProjectProgra2020\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }
