@@ -15,6 +15,8 @@ namespace projectProgra2020.Models
         }
         public DbSet<projectProgra2020.Models.Registro> Registro { get; set; }
         public DbSet<projectProgra2020.Models.Producto> producto { get; set; }
+        public DbSet<projectProgra2020.Models.Productom> productom { get; set; }
+        public DbSet<projectProgra2020.Models.Producton> producton { get; set; }
 
     }
 }

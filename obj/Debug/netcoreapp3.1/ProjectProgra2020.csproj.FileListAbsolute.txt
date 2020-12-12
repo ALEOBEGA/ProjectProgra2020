@@ -478,7 +478,6 @@ C:\Users\PERSONAL\Desktop\progra1-lab\Actualizacion proyecto\ProjectProgra2020\o
 C:\Users\PERSONAL\Desktop\progra1-lab\Actualizacion proyecto\ProjectProgra2020\obj\Debug\netcoreapp3.1\ProjectProgra2020.genruntimeconfig.cache
 C:\Users\PERSONAL\Desktop\progra1-lab\Actualizacion proyecto\ProjectProgra2020\bin\Debug\netcoreapp3.1\Npgsql.dll
 C:\Users\PERSONAL\Desktop\progra1-lab\Actualizacion proyecto\ProjectProgra2020\bin\Debug\netcoreapp3.1\Npgsql.EntityFrameworkCore.PostgreSQL.dll
-<<<<<<< HEAD
 C:\Users\PERSONAL\Desktop\progra1-lab\Actualizacion proyecto\ProjectProgra2020\obj\Debug\netcoreapp3.1\Razor\Views\ZapatosH\indexH.cshtml.g.cs
 C:\Users\PERSONAL\Desktop\progra1-lab\Actualizacion proyecto\ProjectProgra2020\obj\Debug\netcoreapp3.1\Razor\Views\ZapatosM\indexM.cshtml.g.cs
 C:\Users\PERSONAL\Desktop\progra1-lab\Actualizacion proyecto\ProjectProgra2020\obj\Debug\netcoreapp3.1\Razor\Views\ZapatosN\indexN.cshtml.g.cs
@@ -568,7 +567,6 @@ C:\Users\PERSONAL\Desktop\progra1-lab\Actualizacion proyecto\ProjectProgra2020\b
 C:\Users\PERSONAL\Desktop\progra1-lab\Actualizacion proyecto\ProjectProgra2020\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\PERSONAL\Desktop\progra1-lab\Actualizacion proyecto\ProjectProgra2020\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\PERSONAL\Desktop\progra1-lab\Actualizacion proyecto\ProjectProgra2020\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-=======
 C:\Users\PC\Desktop\Programación Lab\Progra lab\ProjectProgra2020\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\PC\Desktop\Programación Lab\Progra lab\ProjectProgra2020\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\PC\Desktop\Programación Lab\Progra lab\ProjectProgra2020\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
