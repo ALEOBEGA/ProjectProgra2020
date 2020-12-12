@@ -10,19 +10,20 @@ using Microsoft.EntityFrameworkCore;
 using ProjectProgra2020.Models;
 using ProjectProgra2020.Data;
 using Microsoft.AspNetCore.Identity;
-
+using projectProgra2020.Controllers;
+using projectProgra2020.Models;
 namespace ProjectProgra2020.Controllers
 {
     public class OrdenController : Controller
     {
 
-       private readonly ILogger<ContactoController> _logger;
+       private readonly ILogger<InicioController> _logger;
        private readonly ApplicationDbContext _context;
 
        private readonly UserManager<IdentityUser> _userManager;
 
 
-        public OrdenController(ILogger<ContactoController> logger,
+        public OrdenController(ILogger<InicioController> logger,
             ApplicationDbContext context,
             UserManager<IdentityUser> userManager)
         {
@@ -33,11 +34,9 @@ namespace ProjectProgra2020.Controllers
 
         public IActionResult AddItem(int? id)
         {
-            var producto = _context.Productos.Find(id);
+            
 
             var orderDetail = new OrdenDetail();
-            orderDetail.producID = producto.ID;
-            orderDetail.Price = producto.Price;
             orderDetail.Quantity = 1;
             var name = _userManager.GetUserName(User);
             //if is null please login

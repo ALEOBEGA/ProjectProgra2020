@@ -1,6 +1,7 @@
 using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using projectProgra2020.Models;
 
 namespace projectProgra2020.Models
 {
