@@ -8,7 +8,6 @@ using Microsoft.Extensions.Logging;
 using ProjectProgra2020.Models;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using projectProgra2020.Models;
 
 namespace ProjectProgra2020.Controllers
 {

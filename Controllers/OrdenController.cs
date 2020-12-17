@@ -10,8 +10,7 @@ using Microsoft.EntityFrameworkCore;
 using ProjectProgra2020.Models;
 using ProjectProgra2020.Data;
 using Microsoft.AspNetCore.Identity;
-using projectProgra2020.Controllers;
-using projectProgra2020.Models;
+using ProjectProgra2020.Controllers;
 namespace ProjectProgra2020.Controllers
 {
     public class OrdenController : Controller
