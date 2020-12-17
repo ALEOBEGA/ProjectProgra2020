@@ -5,7 +5,7 @@ using projectProgra2020.Models;
 
 namespace projectProgra2020.Models
 {
-    [Table("t_producto")]
+
     
     public class Producto
     {
