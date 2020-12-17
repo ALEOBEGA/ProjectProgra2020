@@ -2,7 +2,7 @@ using System;
 using System.ComponentModel.DataAnnotations;
 
 
-namespace projectProgra2020.Models
+namespace ProjectProgra2020.Models
 {
     public class Registro
     {

@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using ProjectProgra2020.Models;
 
-namespace projectProgra2020.Controllers
+namespace ProjectProgra2020.Controllers
 {
     public class InicioController : Controller
     {

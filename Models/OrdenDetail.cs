@@ -3,7 +3,7 @@ using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace projectProgra2020.Models
+namespace ProjectProgra2020.Models
 {
     [Table("t_orden_detail")]
     

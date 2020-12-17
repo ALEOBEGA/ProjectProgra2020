@@ -1,9 +1,9 @@
 using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using projectProgra2020.Models;
+using ProjectProgra2020.Models;
 
-namespace projectProgra2020.Models
+namespace ProjectProgra2020.Models
 {
 
     
