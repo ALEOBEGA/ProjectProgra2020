@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PC\\Desktop\\Programación Lab\\API\\ProjectProgra2020\\ProjectProgra2020.csproj": {}
+    "C:\\Users\\PC\\Desktop\\Programación Lab\\OrdenDeCompra\\ProjectProgra2020\\ProjectProgra2020.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PC\\Desktop\\Programación Lab\\API\\ProjectProgra2020\\ProjectProgra2020.csproj": {
+    "C:\\Users\\PC\\Desktop\\Programación Lab\\OrdenDeCompra\\ProjectProgra2020\\ProjectProgra2020.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\Desktop\\Programación Lab\\API\\ProjectProgra2020\\ProjectProgra2020.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\Desktop\\Programación Lab\\OrdenDeCompra\\ProjectProgra2020\\ProjectProgra2020.csproj",
         "projectName": "ProjectProgra2020",
-        "projectPath": "C:\\Users\\PC\\Desktop\\Programación Lab\\API\\ProjectProgra2020\\ProjectProgra2020.csproj",
+        "projectPath": "C:\\Users\\PC\\Desktop\\Programación Lab\\OrdenDeCompra\\ProjectProgra2020\\ProjectProgra2020.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\Desktop\\Programación Lab\\API\\ProjectProgra2020\\obj\\",
+        "outputPath": "C:\\Users\\PC\\Desktop\\Programación Lab\\OrdenDeCompra\\ProjectProgra2020\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config"
