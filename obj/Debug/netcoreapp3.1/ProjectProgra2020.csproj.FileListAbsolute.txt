@@ -1676,3 +1676,4 @@ C:\Users\PC\Desktop\Programación Lab\OrdenDeCompra\ProjectProgra2020\obj\Debug\
 C:\Users\PC\Desktop\Programación Lab\OrdenDeCompra\ProjectProgra2020\obj\Debug\netcoreapp3.1\ProjectProgra2020.dll
 C:\Users\PC\Desktop\Programación Lab\OrdenDeCompra\ProjectProgra2020\obj\Debug\netcoreapp3.1\ProjectProgra2020.pdb
 C:\Users\PC\Desktop\Programación Lab\OrdenDeCompra\ProjectProgra2020\obj\Debug\netcoreapp3.1\ProjectProgra2020.genruntimeconfig.cache
+C:\Users\PC\Desktop\Programación Lab\OrdenDeCompra\ProjectProgra2020\obj\Debug\netcoreapp3.1\Razor\Views\Carrito\Index.cshtml.g.cs
