@@ -1,8 +1,6 @@
 using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using ProjectProgra2020.Models;
@@ -18,8 +16,13 @@ namespace ProjectProgra2020.Controllers
         private readonly ApplicationDbContext _context;
         private readonly UserManager<IdentityUser> _userManager;
         private readonly SignInManager<IdentityUser> _signInManager;
-
-
+public CarritoController(ILogger<CarritoController> logger, ApplicationDbContext context, SignInManager<IdentityUser> signInManager, UserManager<IdentityUser> userManager)
+        {
+            _logger = logger;
+            _context = context;
+            _userManager = userManager;
+            _signInManager = signInManager;
+        }
         public IActionResult Index()
         {
             if(_signInManager.IsSignedIn(User))
