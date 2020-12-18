@@ -26,7 +26,7 @@ namespace ProjectProgra2020.Controllers
 
         public IActionResult IndexM()
         {
-            var listContactos=_context.productom.ToList();
+            var listContactos=_context.producto.ToList();
 
             return View(listContactos);
         }

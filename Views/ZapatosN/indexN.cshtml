@@ -1,4 +1,4 @@
-@model IEnumerable<ProjectProgra2020.Models.Producton>
+@model IEnumerable<ProjectProgra2020.Models.Producto>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,12 +29,12 @@
 
         <div class="col-sm">
             <div class="card" style="width: 18rem;">
-              <img src="@productos.imagen" class="card-img-top" width="150"px height="150"px>
+              <img src="@productos.Picture" class="card-img-top" width="150"px height="150"px>
               <div class="card-body">
-                <h5 class="card-title">@productos.nombre</h5>
+                <h5 class="card-title">@productos.userID</h5>
 
-                <label>Descripcion: @productos.descripcion</label><br>
-                <label>Precio: S/ @productos.precio</label><br>
+                <label>Descripcion: @productos.Description</label><br>
+                <label>Precio: S/ @productos.Price</label><br>
               <button class="btn btn-dark">Agregar al carrito</button>
                   <button class="btn btn-dark">Comprar</button>
                                 
