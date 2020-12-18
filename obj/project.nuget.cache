@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6uwtdzLEi4Si2JYl/KxwbMfebUmGQnZjhmg5Gi/aqAuNLWb3SS2AduFciXf9yOu4mU5D4qAZHA5g/tqlEXY4lA==",
+  "dgSpecHash": "cEPKnceAEBd5G1PRKEtK47+XCCy4Rg1VtyIO6N03uEH6SqpHzorJnm0ppV4CiJWgfr89nQUvM+6hxx9eeRC8rw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\PC\\Desktop\\Programación Lab\\API\\ProjectProgra2020\\ProjectProgra2020.csproj",
+  "projectFilePath": "C:\\Users\\PC\\Desktop\\Programación Lab\\OrdenDeCompra\\ProjectProgra2020\\ProjectProgra2020.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.8\\microsoft.aspnetcore.cryptography.internal.3.1.8.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.8\\microsoft.aspnetcore.cryptography.keyderivation.3.1.8.nupkg.sha512",

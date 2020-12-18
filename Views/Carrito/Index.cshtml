@@ -1,0 +1,75 @@
+@model dynamic
+
+@{
+    ViewData["Title"] = "Home Page";
+    var id=1;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <div class="container" style="height: 30vw;">
+        <div class="gallery js-flickity responsive" data-flickity-options='{ "cellAlign": "center", "contain": true }'>
+            <div class="gallery-cell"><img src='~/img/banner_01.jpg' class="responsive"/></div>
+            <div class="gallery-cell"><img src='~/img/banner_01.jpg' class="responsive"/></div>
+            <div class="gallery-cell"><img src='~/img/banner_01.jpg' class="responsive"/></div>
+        </div>
+    </div>
+    <br>
+    <div class="container">
+            <div class="col-md-12 col-12">
+                <table class=" table table-bordered" class="responsive" >
+                    <thead class="carro" >
+                        <tr>
+                            <th scope="col">ID</th>
+                            <th scope="col">Imagen</th>
+                            <th scope="col">Nombre</th>
+                            <th scope="col">Precio</th>
+                            <th scope="col">Estado</th>
+                            
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (Producto producto in Model.Mostrar)
+                        {                   
+                            <tr>
+                                <th scope="row">@id</th>
+                                <td>
+                                    <img src='@producto.imageData' class="imgcarro" >
+                                </td>
+                                <td>@producto.Name</td>
+                                <td>@producto.Price</td>
+                                <!-- Falta acomodar el total, por temas de simplicidad he borrado temporalmente el conteo de cantidades -->
+                                <td>
+                                    <form method="POST" asp-controller="Carrito" asp-action="Delete">
+                                        <input type="hidden" value="@producto.ID" asp-for="@producto.ID">
+                                        <button type="submit" class="btn btn-outline-info">Eliminar</button>
+                                    </form>
+                                </td>
+                            </tr>
+                            id++;
+                        }
+
+                        @if(id>1){
+                            <!-- Acomodar un espacio donde poner el valor Model.Total-->                           
+                        }
+                    </tbody>
+                </table>
+            </div>   
+        <div class="mx-auto" align="Right">
+            <a asp-controller="Pago" asp-action="Index"><button type="button" class="btn btn-success">
+          Proceder pago
+        </button></a>
+        
+      </div>
+        
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+</body>
