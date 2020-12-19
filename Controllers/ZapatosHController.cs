@@ -8,6 +8,7 @@ using Microsoft.Extensions.Logging;
 using ProjectProgra2020.Models;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using ProjectProgra2020.Controllers;
 
 namespace ProjectProgra2020.Controllers
 {
@@ -26,9 +27,9 @@ namespace ProjectProgra2020.Controllers
 
         public IActionResult IndexH()
         {
-            var listContactos=_context.producto.ToList();
+            var listProductos=_context.producto.ToList();
 
-            return View(listContactos);
+            return View(listProductos);
         }
 
         public IActionResult Privacy()
