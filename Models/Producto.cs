@@ -3,37 +3,35 @@ using System.IO;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using ProjectProgra2020.Models;
+using ProjectProgra2020.Controllers;
 
 namespace ProjectProgra2020.Models
 {
-
-    [Table("t_producto")]
+    
     public class Producto
     {
+        
+        [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        [Column("id")]
-        public int ID{ get; set;} 
+        [Column("idproducto")]
+        public int idproducto{ get; set;} 
 
-        [Column("id_user")]
-        public int userID{ get; set; }
+        [Column("categoria")]
+        public string categoria { get; set;}
 
-        [Column("id_categoria")]
-        public int catID { get; set;}
-
-        [Column("titulo")]
-        public String Name{ get; set; }
+        [Column("nombre")]
+        public string nombre{ get; set; }
         
         [Column("descripcion")]
-        public String Description { get; set;}
+        public string descripcion { get; set;}
 
         [Column("precio")]
-        public int Price{ get; set;}
+        public double precio{ get; set;}
 
-        [Column("image")]
-        public byte[] Picture { get; set; }
+        [Column("imagen")]
+        public string imagen { get; set; }
 
-        [NotMapped]
-        public String imageData { get; set; }
+        
         
         
     }

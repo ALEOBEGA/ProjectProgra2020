@@ -39,14 +39,14 @@
                             <tr>
                                 <th scope="row">@id</th>
                                 <td>
-                                    <img src='@producto.imageData' class="imgcarro" >
+                                    <img src='@producto.imagen' class="imgcarro" >
                                 </td>
-                                <td>@producto.Name</td>
-                                <td>@producto.Price</td>
+                                <td>@producto.nombre</td>
+                                <td>@producto.precio</td>
                                 <!-- Falta acomodar el total, por temas de simplicidad he borrado temporalmente el conteo de cantidades -->
                                 <td>
                                     <form method="POST" asp-controller="Carrito" asp-action="Delete">
-                                        <input type="hidden" value="@producto.ID" asp-for="@producto.ID">
+                                        <input type="hidden" value="@producto.idproducto" asp-for="@producto.idproducto">
                                         <button type="submit" class="btn btn-outline-info">Eliminar</button>
                                     </form>
                                 </td>

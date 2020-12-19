@@ -43,12 +43,11 @@ public CarritoController(ILogger<CarritoController> logger, ApplicationDbContext
                     if(carro.user_id==userId){
                         for(int i=0; i<listProductos.Count; i++){
                             prod=listProductos[i];
-                            if(prod.ID==carro.producto_id){
-                                string imageBase64Data = Convert.ToBase64String(prod.Picture);
-                                string imageDataURL = string.Format("data:image/jpg;base64,{0}",imageBase64Data);
-                                ViewBag.imageDataURL = imageDataURL;
-                                prod.imageData = ViewBag.imageDataURL;
-                                total+=prod.Price;
+                            if(prod.idproducto==carro.producto_id){
+                               
+                             
+                               
+                                prod.imagen = ViewBag.imageDataURL;
                                 listMostrar.Add(prod);
                                 break;
                             }
@@ -80,7 +79,7 @@ public CarritoController(ILogger<CarritoController> logger, ApplicationDbContext
                 if(userId==temp.user_id){
                     listProdUser.Add(temp);
                     //verifica si el ID de producto existe en la tabla
-                    if(producto.ID==temp.producto_id){
+                    if(producto.idproducto==temp.producto_id){
                         prodExist=true;
                         carritoID=temp.ID;
                     }
