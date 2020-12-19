@@ -46,8 +46,8 @@ public CarritoController(ILogger<CarritoController> logger, ApplicationDbContext
                             if(prod.idproducto==carro.producto_id){
                                
                              
-                               
-                                prod.imagen = ViewBag.imageDataURL;
+                               ViewBag.imagen = prod.imagen;
+                                prod.imagen = prod.imagen;
                                 listMostrar.Add(prod);
                                 break;
                             }
