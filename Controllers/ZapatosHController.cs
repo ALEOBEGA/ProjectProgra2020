@@ -9,6 +9,7 @@ using ProjectProgra2020.Models;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ProjectProgra2020.Controllers;
+using ProjectProgra2020.Data;
 
 namespace ProjectProgra2020.Controllers
 {
@@ -17,9 +18,9 @@ namespace ProjectProgra2020.Controllers
         
         private readonly ILogger<ZapatosHController> _logger;
 
-        private readonly DatabaseContext _context;
+        private readonly ApplicationDbContext _context;
 
-        public ZapatosHController(ILogger<ZapatosHController> logger,DatabaseContext context)
+        public ZapatosHController(ILogger<ZapatosHController> logger,ApplicationDbContext context)
         {
             _logger = logger;
             _context = context;

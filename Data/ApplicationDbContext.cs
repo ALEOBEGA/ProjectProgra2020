@@ -12,13 +12,11 @@ namespace ProjectProgra2020.Data
             : base(options)
         {
         }
-
-         public DbSet<ProjectProgra2020.Models.Usuario> Usuarios { get; set; }
-        public DbSet<ProjectProgra2020.Models.Contacto> Contactos { get; set; }
-        public DbSet<ProjectProgra2020.Models.Categoria> Categorias { get; set; }
-
-        public DbSet<ProjectProgra2020.Models.Producto> Productos { get; set; }
-
-        public DbSet<ProjectProgra2020.Models.Carrito> Carritos { get; set; }
+        public DbSet<ProjectProgra2020.Models.Registro> Registro { get; set; }
+        public DbSet<ProjectProgra2020.Models.categoria> categoria { get; set; }
+        public DbSet<ProjectProgra2020.Models.producto> producto { get; set; }
+        public DbSet<ProjectProgra2020.Models.ventas> ventas { get; set; }
+        //public DbSet<ProjectProgra2020.Models.productom> productosm { get; set; }
+        //public DbSet<ProjectProgra2020.Models.producton> productosn { get; set; }
     }
 }

@@ -1,0 +1,54 @@
+@model ICollection<Carrito_de_compras>
+<script>
+    function validaNumericos(event) {
+    if(event.charCode >= 48 && event.charCode <= 57){
+      return true;
+     }
+     return false;        
+}
+</script>
+
+
+<h1>Datos del cliente</h1>
+
+<form asp-controller="Cliente" asp-action="cotizacion">
+
+                    <button class="btn btn-primary">Realizar compra</button>
+                    <br><br>
+     
+                        <table class="table table-dark table-striped">
+                            <thead>
+                               <tr>
+                                 <th scope="col">Nombre producto</th>                                 
+                                 <th scope="col">cantidad pedido</th>
+                                 <th scope="col">cantidad Total</th>
+                                 <th scope="col">imagen referencial</th>
+                                 <th scope="col"></th>
+                               </tr>
+                            </thead>
+
+
+                             @foreach (var productos in Model){
+                             
+                            <tr>
+
+                                <td>@productos.nombre</td>
+                                <td>@productos.cant</td>
+                                <td>@productos.precio</td>
+                                <td><img src="@productos.imagen" width="50"px height="70"px></td>
+                                <input type="hidden" name="idp" value=@productos.id>                          
+                                <input type="hidden" name="cantP" value=@productos.cant>
+                                <form asp-controller="Cliente" asp-action="DELETE">
+                                  <input type="hidden" name="idp" value=@productos.id>
+                                  <td><button class="btn btn-primary">Borrar</button></td>
+                                </form>
+
+
+                            </tr>
+
+
+                             }
+
+                            
+                        </table>
+</form>

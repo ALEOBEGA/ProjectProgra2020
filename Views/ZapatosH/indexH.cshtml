@@ -1,4 +1,4 @@
-@model IEnumerable<ProjectProgra2020.Models.Producto>
+@model IEnumerable<ProjectProgra2020.Models.producto>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,17 +8,8 @@
 </head>
 <body>
 
-  <nav class="nav nav-pills nav-justified; nav justify-content-center">
-  <a class="nav-item nav-link" asp-area="" asp-controller="ZapatosH" asp-action="IndexH" >Hombres</a>
-  <a class="nav-item nav-link" asp-area="" asp-controller="ZapatosM" asp-action="IndexM" >Mujeres</a>
-  <a class="nav-item nav-link" asp-area="" asp-controller="ZapatosN" asp-action="IndexN" >Niños</a>
-
-
-   
-  
-</nav>
 <H1>Lista de productos</H1>
-
+<h2>Registrate para comprar nuestros productos</h2>
 
     <div class="container">
         <div class="row">
@@ -35,8 +26,6 @@
 
                 <label>Descripcion: @Producto.descripcion</label><br>
                 <label>Precio: S/ @Producto.precio</label><br>
-               <button class="btn btn-dark">Agregar al carrito</button>
-                  <button class="btn btn-dark">Comprar</button>
                                 
               </div>
             </div>

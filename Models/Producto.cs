@@ -8,28 +8,22 @@ using ProjectProgra2020.Controllers;
 namespace ProjectProgra2020.Models
 {
     
-    public class Producto
+    public class producto
     {
         
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        [Column("idproducto")]
+
         public int idproducto{ get; set;} 
 
-        [Column("categoria")]
-        public string categoria { get; set;}
-
-        [Column("nombre")]
         public string nombre{ get; set; }
-        
-        [Column("descripcion")]
-        public string descripcion { get; set;}
 
-        [Column("precio")]
         public double precio{ get; set;}
 
-        [Column("imagen")]
+        public string descripcion { get; set;}
+
         public string imagen { get; set; }
+
+        public string categoria { get; set;}
 
         
         

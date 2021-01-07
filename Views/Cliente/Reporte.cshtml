@@ -1,0 +1,47 @@
+@using ProjectProgra2020.Models,
+@model List<ventas>
+
+<body>
+      <div class="container">
+        <div class="row">
+
+
+                                  <table class="table table-dark table-striped">
+                            <thead>
+                               <tr>
+                                 <th scope="col">ID ventas</th>                                 
+                                 <th scope="col">DNI Cliente</th>
+                                 <th scope="col">ID producto</th>
+                                 <th scope="col">fecha de venta</th>
+                                 <th scope="col">cantidad</th>  
+                                 <th scope="col">precio total</th>
+
+                               </tr>
+                            </thead>
+
+
+                             @foreach (var ventas in Model){
+                             
+                            <tr>
+
+                                <td>@ventas.idventas</td>
+                                <td>@ventas.idcliente</td>
+                                <td>@ventas.idproducto</td>
+                                <td>@ventas.fechaventa</td>
+                                <td>@ventas.cantidad</td>
+                                <td>@ventas.preciot</td>
+
+                                
+
+
+                            </tr>
+
+
+                             }
+
+                            
+                        </table>
+        </div>
+        
+    </div>
+</body>

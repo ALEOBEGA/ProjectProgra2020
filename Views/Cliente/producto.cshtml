@@ -1,0 +1,54 @@
+@using ProjectProgra2020.Models
+@model List<producto>
+<script>
+    function validaNumericos(event) {
+    if(event.charCode >= 48 && event.charCode <= 57){
+      return true;
+     }
+     return false;        
+}
+</script>
+<body>
+<H1>Lista de productos</H1>
+
+    <div class="container">
+        <div class="row">
+
+        @foreach (var Producto in Model)
+        {
+      
+            
+
+            <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                  <img src="@Producto.imagen" class="card-img-top" width="150"px height="150"px>
+                  <div class="card-body">
+                    <h5 class="card-title">@Producto.nombre</h5>
+
+                    <label>Descripcion: @Producto.descripcion</label><br>
+                    <form  asp-controller="Cliente" asp-action="AgregarAlCarrito">
+                        <input type="hidden" name="id_producto" value="@Producto.idproducto">
+                        <input type="text" value="" name="cant_en_stock" onkeypress='return validaNumericos(event)' placeholder="Ingresar cantidad" >
+                        <button class="btn btn-dark">Agregar al carrito</button>
+                    </form>
+                    <form  asp-controller="Cliente" asp-action="Comprar">
+                        <input type="hidden" name="id_producto" value="@Producto.idproducto">
+                        <button class="btn btn-dark">comprar</button>
+                    </form>
+                  </div>
+                </div>
+            </div>
+           
+            
+        
+        }
+        </div>
+        
+    </div>
+
+</body>
+
+
+
+
+

@@ -1,0 +1,37 @@
+@model ProjectProgra2020.Models.RegistroViewModel
+<script>
+    function validaNumericos(event) {
+    if(event.charCode >= 48 && event.charCode <= 57){
+      return true;
+     }
+     return false;        
+}
+</script>
+<h1>Formulario de registro de cuenta</h1>
+
+
+<form asp-action="register" method="post">
+
+    <div asp-validation-summary="All"></div>
+    <div class="form-group">
+        DNI de usuario: <input class="form-control" asp-for="id" onkeypress='return validaNumericos(event)' maxlength="8" required>
+    </div>
+
+    <div class="form-group">
+        Nombre de usuario: <input class="form-control" asp-for="Usuario" required>
+    </div>
+
+    <div class="form-group">
+        Email: <input class="form-control" type="email" asp-for="Email" required>
+    </div>
+
+    <div class="form-group">
+        Password: <input class="form-control" asp-for="Password" required>
+    </div>
+
+    <div class="form-group">
+        Confirmar contraseña: <input class="form-control" asp-for="PasswordConfirmacion" required>
+    </div>
+    <button class="btn btn-primary">Crear cuenta</button>
+
+</form>
